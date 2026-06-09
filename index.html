@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appartamento in Vendita | 150.000 euro</title>
+  <meta name="description" content="Appartamento luminoso in vendita a 150.000 euro. Guarda foto, planimetria e dettagli dell'immobile.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-shapes" aria-hidden="true">
+    <span class="shape shape-a"></span>
+    <span class="shape shape-b"></span>
+    <span class="shape shape-c"></span>
+  </div>
+
+  <header class="site-header">
+    <div class="brand">Casa in vendita</div>
+    <a href="#contatti" class="btn btn-ghost">Richiedi visita</a>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-copy reveal">
+        <p class="kicker">Via Aurelio Saffi 2</p>
+        <h1>Il tuo prossimo appartamento, pronto da vivere.</h1>
+        <p class="subtitle">Ambienti luminosi, cucina abitabile, balconi e spazi ben distribuiti in una zona comoda ai servizi.</p>
+        <div class="price-box">
+          <span>Prezzo richiesto</span>
+          <strong>150.000 euro</strong>
+        </div>
+        <div class="hero-actions">
+          <a href="#galleria" class="btn btn-primary">Guarda le foto</a>
+          <a href="#dettagli" class="btn btn-secondary">Dettagli immobile</a>
+        </div>
+      </div>
+      <div class="hero-media reveal-delay">
+        <img id="heroImage" src="" alt="Vista principale appartamento">
+        <div class="hero-strip" id="heroStrip" aria-label="Anteprime foto principali"></div>
+      </div>
+    </section>
+
+    <section class="highlights" id="dettagli">
+      <article class="card reveal">
+        <h3>Zona giorno accogliente</h3>
+        <p>Soggiorno ampio con area pranzo e uscita su balcone, ideale per momenti in famiglia e ospiti.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Cucina abitabile</h3>
+        <p>Spazio funzionale e luminoso, perfetto per la vita quotidiana e per chi ama cucinare.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Camera matrimoniale</h3>
+        <p>Ambiente comodo con armadiatura capiente e accesso alla luce naturale.</p>
+      </article>
+      <article class="card reveal">
+        <h3>Balconi e contesto urbano</h3>
+        <p>Affacci aperti e posizione interessante, vicina a servizi principali e collegamenti.</p>
+      </article>
+    </section>
+
+    <section class="stats reveal">
+      <div><span>Prezzo</span><strong>150.000 euro</strong></div>
+      <div><span>Tipologia</span><strong>Appartamento</strong></div>
+      <div><span>Indirizzo</span><strong>Via Aurelio Saffi 2</strong></div>
+      <div><span>Stato</span><strong>Pronto da abitare</strong></div>
+      <div><span>Disponibilita</span><strong>Immediata</strong></div>
+    </section>
+
+    <section class="gallery-section" id="galleria">
+      <div class="section-head reveal">
+        <p class="kicker">Tour fotografico</p>
+        <h2>Ogni ambiente, in dettaglio</h2>
+      </div>
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </section>
+
+    <section class="extras">
+      <div class="extra-card reveal">
+        <h3>Planimetria</h3>
+        <img src="immagini appartamento/Immagine-2.png" alt="Planimetria appartamento">
+      </div>
+      <div class="extra-card reveal">
+        <h3>Posizione</h3>
+        <img src="immagini appartamento/Immaginee-FILEminimizer-870x420.jpg" alt="Vista aerea posizione appartamento">
+      </div>
+    </section>
+
+    <section class="cta reveal" id="contatti">
+      <p class="kicker">Interessato all'immobile?</p>
+      <h2>Prenota una visita e scopri dal vivo il potenziale di questa casa.</h2>
+      <p>Prezzo di vendita: <strong>150.000 euro</strong></p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="tel:+393928055587">Chiama ora: 392 805 5587</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Chiudi">x</button>
+    <img id="lightboxImage" src="" alt="Foto appartamento ingrandita">
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
